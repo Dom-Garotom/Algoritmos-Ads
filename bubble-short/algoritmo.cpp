@@ -4,7 +4,7 @@ using namespace std;
 using namespace std::chrono;
 #define Total 200
 
-int bubbleShort(int lista[Total])
+void bubbleShort(int lista[Total])
 {
     for (int i = 0; i < Total - 1; i++)
     {
@@ -28,7 +28,7 @@ int bubbleShort(int lista[Total])
     }
 }
 
-int bubbleShortSemOcorrencia(int lista[Total])
+void bubbleShortSemOcorrencia(int lista[Total])
 {
     for (int i = 0; i < Total - 1; i++)
     {
